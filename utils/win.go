@@ -210,6 +210,8 @@ func isExclude(code int, excludeKeys []int) bool {
 
 var initOpEle = OpElement{}
 
+// KeyboardHook
+// excludeKeys are the keys that we dont want to clone
 func KeyboardHook(channel chan *OpElement, excludeKeys []int) {
 	var opEleP *OpElement = new(OpElement)
 	// key.PressKeyDown(uintptr(h), consts.VK_W)
