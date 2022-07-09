@@ -8,7 +8,7 @@ import (
 )
 
 func executeOp(channel chan *utils.OpElement) {
-	fmt.Println("KeyClone process startted")
+	fmt.Println("KeyClone process started")
 	lastKeyOp := ""
 	//var lastKeyOp string
 	const title = "魔兽世界" // set the window text title
